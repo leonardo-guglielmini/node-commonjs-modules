@@ -1,7 +1,9 @@
-function createObj(firstName, lastName) {
+function createPerson(firstName, lastName) {
+
     person = { firstName, lastName };
     //console.log(person);
     return person;
+
 }
 
-module.exports = createObj;
+module.exports = createPerson;
